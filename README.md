@@ -31,7 +31,6 @@ flask_auth/
 Откройте терминал в папке проекта и выполните:
 
 ```bash
-# 1. (необязательно, но рекомендуется) виртуальное окружение
 py -m venv venv
 venv\Scripts\activate        # Windows
 # source venv/bin/activate   # Linux / macOS
@@ -79,5 +78,3 @@ Running on http://127.0.0.1:5000
 - запоминать вход через `session` и `flash`, защищать страницы декоратором `@login_required`;
 - выключить `debug=True` при публикации.
 
-Подробное объяснение кода и ответы на вопросы преподавателя — в файле
-[defense_guide.md](defense_guide.md).
